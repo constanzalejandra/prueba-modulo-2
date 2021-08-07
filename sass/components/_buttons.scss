@@ -1,0 +1,11 @@
+@import "../abstracts/variables";
+
+button {
+  padding: 1px !important;
+  background-color: $orange;
+  border-radius: 5px !important;
+  color: $sable;
+  &:hover {
+    background-color: $white;
+  }
+}

@@ -1,0 +1,11 @@
+@import "../abstracts/variables";
+
+input {
+  background-color: $white;
+  color: $charcoal;
+  border: 1px solid $charcoal;
+  border-radius: 3px;
+  &:focus {
+    background-color: $orange;
+  }
+}

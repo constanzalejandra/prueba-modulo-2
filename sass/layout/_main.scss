@@ -1,0 +1,79 @@
+@import "../abstracts/variables";
+.Banner {
+  text-align: center;
+  img {
+    height: 600px;
+  }
+}
+.Articulo {
+  border-radius: 0px !important;
+  border: 1px dotted $grey !important;
+  padding: 7px !important;
+
+  .Articulo__body {
+    .Articulo__titulo {
+      font-weight: bold;
+    }
+    .Articulo__instructor {
+      display: block;
+    }
+  }
+
+  .Articulo__lista {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    .Articulo__lista__item {
+      margin-left: 13px;
+    }
+  }
+}
+.Dev {
+  .Dev__titulo {
+    display: block;
+    margin-top: 20px;
+  }
+  .Dev__listadev {
+    margin-top: 10px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    .Dev__listadev__item {
+      margin-left: 13px;
+    }
+  }
+  .Dev__descripcion {
+    text-align: justify;
+  }
+  .Dev__cajagris {
+    background-color: $grey;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    strong {
+      color: $white;
+      font-family: $poppins !important;
+      font-weight: normal;
+    }
+  }
+  .Dev__listacursos {
+    padding: 17px;
+    text-align: left;
+    list-style: circle;
+    .Dev__listacursos__item {
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}

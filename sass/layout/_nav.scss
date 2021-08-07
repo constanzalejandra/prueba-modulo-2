@@ -1,0 +1,10 @@
+@import "../abstracts/variables";
+.bg-dark-app {
+  background-color: $black !important;
+}
+.navbar-toggler {
+  &:hover {
+    color: $tangerine !important;
+    background-color: $black !important;
+  }
+}
